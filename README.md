@@ -9,4 +9,4 @@ Steps to make the analysis code operational:
   - `cd tf-pwa`
   - `pip install -e .`
 
- The current analysis can be found in `Analysis/Amplitude.ipynb`
+ The current analysis can be found in `Analysis/Amplitude.ipynb`.
