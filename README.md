@@ -4,9 +4,7 @@ Steps to make the analysis code operational:
 - Conda has to be installed on the system
 - Clone this repository
 - In console (inside the repo folder):
-  - `conda env create -f environment.yml`
-  - `conda activate tf-pwa-env`
-  - `cd tf-pwa`
-  - `pip install -e .`
+  - `chmod +x setup_tf_pwa.sh`
+  - `./setup_tf_pwa.sh`
 
  The current analysis can be found in `Analysis/Amplitude.ipynb`.
