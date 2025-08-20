@@ -49,6 +49,7 @@ class ParamsTrans:
                 ret = tf.sqrt(
                     tf.reduce_sum(
                         tf.linalg.matvec(self.err_matrix[:grad.shape[0], :grad.shape[0]], grad) * grad
+
                     )
                 )
             else:  # vector
